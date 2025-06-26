@@ -39,3 +39,7 @@ function mintSubscription() public payable {
     isSubscribed[msg.sender] = true;
     tokenCounter++;
 }
+
+To run the project:
+chmod +x start.sh
+./start.sh
